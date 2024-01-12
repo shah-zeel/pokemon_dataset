@@ -35,7 +35,6 @@ df['Type 1'].value_counts().plot(kind='pie', autopct='%1.1f%%', cmap='tab20c', f
 Histogram and box plot for the distribution of Pokemon totals:
 
 ```python
-Copy code
 df['Total'].plot(kind='hist', figsize=(10, 8))
 df['Total'].plot(kind='box', vert=False, figsize=(10, 5))
 ```
@@ -43,7 +42,6 @@ df['Total'].plot(kind='box', vert=False, figsize=(10, 5))
 ## Legendary Pokemon Distribution
 Pie chart showing the distribution of legendary Pokemon:
 ```python
-Copy code
 df['Legendary'].value_counts().plot(kind='pie', autopct='%1.1f%%', cmap='Set3', figsize=(10, 8))
 ```
 ## Basic Filtering
